@@ -8,6 +8,8 @@ This project is a Java/TestNG/Maven implementation of the same test suite I buil
 in [Python/Pytest/Selenium](https://github.com/prashantibhatt04/python-selenium-automation-suite),
 demonstrating the ability to work across both automation stacks.
 
+[![CI](https://github.com/prashantibhatt04/java-selenium-automation-suite/actions/workflows/tests.yml/badge.svg)](https://github.com/prashantibhatt04/java-selenium-automation-suite/actions/workflows/tests.yml)
+
 ## Tech Stack
 - Java 17
 - Selenium WebDriver 4
