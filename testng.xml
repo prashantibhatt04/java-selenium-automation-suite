@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TD-QA-Suite" verbose="1">
+
+  <listeners>
+    <listener class-name=
+      "com.tdqa.listeners.ExtentReportListener"/>
+  </listeners>
+
+  <test name="Smoke Tests">
+    <groups><run><include name="smoke"/></run></groups>
+    <classes>
+      <class name="com.tdqa.tests.LoginTest"/>
+      <class name="com.tdqa.tests.DynamicLoadingTest"/>
+      <class name="com.tdqa.tests.UploadTest"/>
+    </classes>
+  </test>
+
+  <test name="Regression Tests">
+    <groups><run><include name="regression"/></run></groups>
+    <classes>
+      <class name="com.tdqa.tests.LoginTest"/>
+      <class name="com.tdqa.tests.DropdownTest"/>
+      <class name="com.tdqa.tests.CheckboxesTest"/>
+      <class name="com.tdqa.tests.DynamicLoadingTest"/>
+    </classes>
+  </test>
+
+</suite>

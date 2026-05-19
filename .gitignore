@@ -1,0 +1,4 @@
+target/
+reports/
+*.class
+.DS_Store
